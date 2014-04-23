@@ -19,6 +19,19 @@ class Page extends SiteTree {
 			
 		return $fields;
 	}
+	public function ContactUsPageObject()
+	{
+		
+		$filter = "ClassName IN('ContactUsPage') ";
+	
+// 		$pages = DataObject::get('SiteTree', $filter, "Status = 'Published'");
+		$pages = DataList::create('SiteTree')->where($filter)->First();
+		foreach($pages as $page) {
+			return $page;
+		}
+		
+		return null;
+	}
 }
 class Page_Controller extends ContentController {
 
@@ -60,5 +73,4 @@ class Page_Controller extends ContentController {
 		}
 		return false;
 	}
-
 }
