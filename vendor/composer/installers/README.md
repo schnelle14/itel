@@ -54,11 +54,13 @@ is not needed to install packages with these frameworks:
 | MODX Evo     | `modxevo-snippet`<br>`modxevo-plugin`<br>`modxevo-module`<br>`modxevo-template`<br>`modxevo-lib`
 | MediaWiki    | `mediawiki-extension`
 | October      | **`october-module`<br>`october-plugin`**
-| OXID         | `oxid-module`
+| OXID         | `oxid-module`<br>`oxid-theme`<br>`oxid-out`
 | MODULEWork   | `modulework-module`
 | Piwik        | `piwik-plugin`
 | phpBB        | `phpbb-extension`<br>`phpbb-style`<br>`phpbb-language`
+| Pimcore      | `pimcore-plugin`
 | PPI          | **`ppi-module`**
+| Roundcube    | `roundcube-plugin`
 | shopware     | `shopware-backend-plugin`<br/>`shopware-core-plugin`<br/>`shopware-frontend-plugin`<br/>`shopware-theme`
 | SilverStripe | `silverstripe-module`<br>`silverstripe-theme`
 | symfony1     | **`symfony1-plugin`**

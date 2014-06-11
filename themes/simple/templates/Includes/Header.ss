@@ -1,19 +1,16 @@
-<header class="header" role="banner">
-	<div class="inner">
-		<div class="unit size4of4 lastUnit">
-			<a href="$BaseHref" class="brand" rel="home">
-				<h1>$SiteConfig.Title</h1>
-				<% if $SiteConfig.Tagline %>
-				<p>$SiteConfig.Tagline</p>
-				<% end_if %>
-			</a>
-			<% if $SearchForm %>
-				<span class="search-dropdown-icon">L</span>
-				<div class="search-bar">
-					$SearchForm
-				</div>
-			<% end_if %>
-			<% include Navigation %>
+<header class="header">
+	<div class="banner">
+		<img src="{$ThemeDir}/images/logo_small.png" alt="i-tel">
+		<div>
+			<span>MENU</span>
+			<img class="mobile-menu" src="{$ThemeDir}/images/mobile_menu.png" alt="i-tel mobile menu">
 		</div>
+		
 	</div>
+	<nav class="primary">
+		<ul id="siteMenu">
+			<li data-menuanchor="homePage" class="active"><a href="#homePage">HOME <span class="divider">|</span></a></li>
+			<li data-menuanchor="contactUsPage"><a href="#contactUsPage">CONTACT US</a></li>
+		</ul>
+	</nav>
 </header>
