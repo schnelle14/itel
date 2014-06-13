@@ -9,7 +9,7 @@
 	</div>
 	<nav class="primary">
 		<ul id="siteMenu">
-			<li data-menuanchor="homePage" class="active"><a href="#homePage">HOME <span class="divider">|</span></a></li>
+			<li data-menuanchor="homePage" class="active"><a href="#homePage">HOME <span class="divider"></span></a></li>
 			<li data-menuanchor="contactUsPage"><a href="#contactUsPage">CONTACT US</a></li>
 		</ul>
 	</nav>
