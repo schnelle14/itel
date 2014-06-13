@@ -177,8 +177,6 @@ nav .divider {
 }
 /* HOME PAGE */
 #homePage{
-	background: url('../images/home.jpg');
-	background-size: cover;
 	color: #fff;
 	margin-top: 0 !important;
 }
@@ -213,11 +211,7 @@ nav .divider {
     width: 100%;
 }
 /* CONTACT US */
-#contactUsPage {
-	background: url('../images/contact.jpg');
-	background-size: cover;
-	background-position:center; 
-}
+
 .contact-detail-header {
     color: #00397E;
     font-size: 1.4em;
@@ -281,7 +275,17 @@ nav .divider {
 	    -webkit-padding-start: 0px; /* removes default webkit padding on ul items */
 	}
 }
-
+@media only screen and (min-width: 641px) {
+	#homePage{
+		background: url('../images/home.jpg');
+		background-size: cover;
+	}
+	#contactUsPage {
+		background: url('../images/contact.jpg');
+		background-size: cover;
+		background-position:center; 
+	}
+}
 /* BREAKPOINT 640px */
 
 /* when changing the breakpoint below, change it ito the same value in the script.js file as well */
@@ -423,14 +427,21 @@ nav .divider {
 				padding: 0;
 			}
 
-
+	#homePage{
+		background: url('../images/home_small.jpg');
+		background-size: cover;
+	}
 	#homePage span {
 	    width: 80%;
 	}
 	.home-header {
     	font-size: 1.5em;
 	}
-	
+	#contactUsPage {
+		background: url('../images/contact_small.jpg');
+		background-size: cover;
+		background-position:center; 
+	}
 	.contact-detail-box {
 	    margin-bottom: 10px;
 	    overflow: hidden;
