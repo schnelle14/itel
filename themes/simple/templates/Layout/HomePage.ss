@@ -36,7 +36,7 @@
 			</div>
 		</div>
 		<div id="footer">
-			
+			<p>Copyright 2014 i-Tel Communications</p>
 		</div>
 	</div>
 </div>
