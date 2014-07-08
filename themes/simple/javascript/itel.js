@@ -4,8 +4,10 @@ $(document).ready(function() {
 	    	navigation: true,
 	        navigationPosition: 'right',
 	        resize : true,
-	        anchors: ['homePage', 'contactUsPage'],
-	        menu: '#siteMenu'
+	        anchors: ['homePage','aboutUsPage','contactUsPage'],
+	        menu: '#siteMenu',
+	        keyboardScrolling: false,
+	        autoScrolling: false
 	    });
 	    
 	    $('.mobile-menu').on('click', function(){

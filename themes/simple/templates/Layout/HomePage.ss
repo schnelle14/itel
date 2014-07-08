@@ -3,7 +3,17 @@
 		<span class="home-header">$Header_Text</span>
 		<span class="home-detail">$Detail_Text</span>
 	</div>
-	
+	<div id="aboutUsPage" class="section">
+		<div id="aboutUsContainer">
+			<div id="aboutUsLogo">
+				<img src="{$ThemeDir}/images/logo_big.png" alt="i-TelCom">
+			</div>
+			<div id="aboutUsText">
+				<span>About i-Tel Communications</span>
+				<p>$AboutUsText</p>
+			</div>
+		</div>
+	</div>
 	<div id="contactUsPage" class="section">
 		<span class="section-header-text">Contact Us</span>
 		<div id="contactDetailsContainer">

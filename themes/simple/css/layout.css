@@ -210,6 +210,39 @@ img.mobile-menu, .banner span {
     top: 10%;
     width: 100%;
 }
+/* ABOUT US */
+#aboutUsContainer {
+    display: block;
+    margin: 10% auto;
+    width: 70%;
+}
+
+#aboutUsLogo {
+    display: inline-block;
+    overflow: hidden;
+    width: 20%;
+}
+#aboutUsLogo img{
+	max-width: 230px;
+	max-height: 230px;
+	width: 100%;
+	height: 100%;
+}
+
+#aboutUsText {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    padding-left: 5%;
+}
+#aboutUsText span{
+	color: #00397E;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+#aboutUsText > p {
+    margin-top: 10px;
+}
 /* CONTACT US */
 #contactUsPage{
 	position: relative;
@@ -486,6 +519,21 @@ img.mobile-menu, .banner span {
 	    margin-top: 0;
 	    vertical-align: middle;
 	}
+	
+#aboutUsLogo {
+    margin: auto;
+    display: block;
+    width: 30%;
+}
+
+#aboutUsLogo img {
+    margin-bottom: 10px;
+}
+
+#aboutUsText {
+    text-align: center;
+    width: 100%;
+}
 	.search-bar form {
 	    margin: 0;
 	    width: 100%;

@@ -5,7 +5,8 @@ class HomePage extends Page {
 			'Detail_Text' => 'Text',
 			'Mobile' => 'Text',
 			'Landline' => 'Text',
-			'Email' => 'Text'
+			'Email' => 'Text',
+			'AboutUsText' => 'Text'
 	);
 	static $has_one = array(
 	);
@@ -19,6 +20,8 @@ class HomePage extends Page {
 		$fields->addFieldToTab('Root.Content.Contact', new TextField('Mobile', 'Mobile No.'));
 		$fields->addFieldToTab('Root.Content.Contact', new TextField('Landline', 'Landline No.'));
 		$fields->addFieldToTab('Root.Content.Contact', new TextField('Email', 'Email Address'));
+		
+		$fields->addFieldToTab('Root.Content.AboutUs', new TextAreaField('AboutUsText', 'About Us'));
 		
 		return $fields;
 	}
