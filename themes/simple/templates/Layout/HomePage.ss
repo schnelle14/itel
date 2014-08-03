@@ -14,6 +14,19 @@
 			</div>
 		</div>
 	</div>
+	<div id="servicesPage" class="section">
+		<span class="section-header-text">Our Services</span>
+		<div id="servicesContainer">
+			<ul>
+			<% control ServicesOffered %>
+				<li>
+					<p>$Header</p>
+					<p>$Detail</p>
+				</li>
+			<% end_control %>
+			</ul>
+		</div>
+	</div>
 	<div id="contactUsPage" class="section">
 		<span class="section-header-text">Contact Us</span>
 		<div id="contactDetailsContainer">

@@ -4,7 +4,7 @@ $(document).ready(function() {
 	    	navigation: true,
 	        navigationPosition: 'right',
 	        resize : true,
-	        anchors: ['homePage','aboutUsPage','contactUsPage'],
+	        anchors: ['homePage','aboutUsPage','servicesPage','contactUsPage'],
 	        menu: '#siteMenu',
 	        keyboardScrolling: false,
 	        autoScrolling: false
@@ -18,6 +18,7 @@ $(document).ready(function() {
 	    	if ($(window).width() < 640){
 	    		$('nav.primary').hide();
 	    	}
+	    	var menuTag=$(this).closest('li').data('menuanchor');
 	    });
 	    
 	    $('#siteMenu li').on('click', function(){
