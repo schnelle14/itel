@@ -533,7 +533,10 @@ img.mobile-menu, .banner span {
 	    margin-top: 0;
 	    vertical-align: middle;
 	}
-	
+
+#aboutUsContainer {
+    width: 90%;
+}	
 #aboutUsLogo {
     margin: auto;
     display: block;
@@ -547,6 +550,10 @@ img.mobile-menu, .banner span {
 #aboutUsText {
     text-align: center;
     width: 100%;
+    padding: 0;
+}
+#aboutUsText span {
+    font-size: 2em;
 }
 	.search-bar form {
 	    margin: 0;
