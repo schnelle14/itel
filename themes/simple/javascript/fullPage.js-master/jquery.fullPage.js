@@ -187,7 +187,7 @@
 				$(this).css('padding-top', $('.header').height() + 'px');
 			} else {
 				$(this).css('height', windowsHeight + 'px');
-				$(this).css('margin-top', $('.header').height());
+				$(this).css('padding-top', $('.header').height());
 			}
 			
 			

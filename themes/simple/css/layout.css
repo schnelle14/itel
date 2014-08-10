@@ -205,9 +205,9 @@ img.mobile-menu, .banner span {
     display: block;
     font-size: 2.5em;
     font-weight: bold;
-    position: absolute;
+/*     position: absolute; */
     text-align: center;
-    top: 10%;
+/*     top: 10%; */
     width: 100%;
 }
 /* ABOUT US */
@@ -247,7 +247,8 @@ img.mobile-menu, .banner span {
 #contactUsPage{
 	position: relative;
 }
-.contact-detail-header {
+.contact-detail-header,
+.service-header {
     color: #00397E;
     font-size: 1.4em;
 }
@@ -277,6 +278,27 @@ img.mobile-menu, .banner span {
 .contact-detail-text span {
     display: block;
     margin-bottom: 5px;
+}
+/* OUR SERVICES*/
+#servicesPage{
+	position: relative;
+}
+#servicesContainer {
+    margin: 20px auto 0;
+    padding: 5%;
+    width: 70%;
+    overflow: hidden;
+}
+.service-box{
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+.service-header {
+	margin-bottom: 10px;
+}
+.service-detail{
+	margin-bottom: 15px;
 }
 /* FOOTER */
 #footer{
@@ -335,6 +357,10 @@ img.mobile-menu, .banner span {
 		background: url('../images/contact.jpg');
 		background-size: cover;
 		background-position:center; 
+	}
+	#servicesPage{
+		background: url('../images/grey.jpg');
+		background-size: cover;
 	}
 }
 /* BREAKPOINT 640px */
@@ -540,6 +566,10 @@ img.mobile-menu, .banner span {
 }
 #aboutUsText span {
     font-size: 2em;
+}
+.service-box{
+	width: 100%;
+	text-align: center;
 }
 	.search-bar form {
 	    margin: 0;
