@@ -362,6 +362,9 @@ img.mobile-menu, .banner span {
 		background: url('../images/grey.jpg');
 		background-size: cover;
 	}
+	nav span.divider{
+		display: auto;
+	}
 }
 /* BREAKPOINT 640px */
 
@@ -375,6 +378,7 @@ img.mobile-menu, .banner span {
 	}
 
 	/* Navigation*/
+
 	.banner img {
 	    display: block;
 	    height: 50px;
@@ -405,8 +409,10 @@ img.mobile-menu, .banner span {
 	    background-color: #012555;
 	}
 	nav span.divider:after {
-/* 	 display: none; */
 		content: "";
+	}
+	nav span.divider{
+		margin: 0;
 	}
 	.banner > div {
 	    float: right;
