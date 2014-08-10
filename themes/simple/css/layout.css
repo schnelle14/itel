@@ -247,7 +247,8 @@ img.mobile-menu, .banner span {
 #contactUsPage{
 	position: relative;
 }
-.contact-detail-header {
+.contact-detail-header,
+.service-header {
     color: #00397E;
     font-size: 1.4em;
 }
@@ -283,10 +284,21 @@ img.mobile-menu, .banner span {
 	position: relative;
 }
 #servicesContainer {
-    margin: 60px auto 0;
+    margin: 20px auto 0;
     padding: 5%;
-    width: 50%;
+    width: 70%;
     overflow: hidden;
+}
+.service-box{
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+.service-header {
+	margin-bottom: 10px;
+}
+.service-detail{
+	margin-bottom: 15px;
 }
 /* FOOTER */
 #footer{
@@ -554,6 +566,10 @@ img.mobile-menu, .banner span {
 }
 #aboutUsText span {
     font-size: 2em;
+}
+.service-box{
+	width: 100%;
+	text-align: center;
 }
 	.search-bar form {
 	    margin: 0;

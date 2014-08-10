@@ -17,14 +17,12 @@
 	<div id="servicesPage" class="section">
 		<span class="section-header-text">Our Services</span>
 		<div id="servicesContainer">
-			<ul>
 			<% control ServicesOffered %>
-				<li>
-					<p>$Header</p>
-					<p>$Detail</p>
-				</li>
+			<div class="service-box">
+				<p class="service-header">$Header</p>
+				<p class="service-detail">$Detail</p>
+			</div>
 			<% end_control %>
-			</ul>
 		</div>
 	</div>
 	<div id="contactUsPage" class="section">
